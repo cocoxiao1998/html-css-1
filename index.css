@@ -16,6 +16,7 @@ HEX: #001a33 - navy blue
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  font-size: 1.25em;
 }
 
 h1, h2, h3 {
@@ -25,7 +26,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 6em;
 }
 
 h2 {
@@ -41,7 +42,7 @@ p {
 }
 
 a {
-  color: red;
+  color: white;
 }
 
 a:hover {
@@ -69,24 +70,23 @@ a:hover {
 header, footer {
   background: #001a33;
   color: #ffffff;
+  text-align: center;
 }
 
 header {
-  background: linear-gradient(rgba(0, 26, 51, 0.2), rgba(0, 26, 51, 0.5)),                 url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1082&q=80) no-repeat fixed;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 26, 51, 0.2), rgba(0, 26, 51, 0.5)), url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1082&q=80) no-repeat fixed;
   background-size: cover;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 3em;
 }
 
-.profile_img {
-  max-width: 225px;
-  border-radius: 50%;
+header p {
+  font-size: 1.5em;
 }
 
 footer {
-  background: url(  https://images.unsplash.com/photo-1521036392421-35d436448d6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat fixed;
+  background: url(https://images.unsplash.com/photo-1521036392421-35d436448d6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat fixed;
   background-size: cover;
-  text-align: center;
 }
 
 .contact {
@@ -102,9 +102,11 @@ footer {
 /* Navigation
 ------------------------------ */
 nav {
-  text-align: center;
-  background: #ffffff;
+  font-size: .75em;
+  padding-top: 2em;
+  text-align: right;
   margin-bottom: 1.75em;
+  padding-right: 5em;
   width: 100%;
   position: fixed;
   top: 0;
@@ -116,6 +118,10 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Genre
@@ -164,10 +170,6 @@ footer h2 {
 }
 
 @media (max-width: 899px) {
-  header {
-    text-align: center;
-  }
-  
   .profile_img {
     max-width: 150px;
   }
