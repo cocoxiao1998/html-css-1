@@ -112,6 +112,33 @@ nav {
   top: 0;
 }
 
+.book-animation {
+  position: absolute;
+  font-size: 3em;
+  padding-left: 2.5em;
+  animation: bounce 2s ease-out 1s infinite;
+}
+
+@keyframes
+bounce {
+  0% {
+    top: 0.5em;
+    left: 0em;
+  }
+  33% {
+    top: 1.25em;
+    left: 1em;
+  }
+  66% {
+    top: 1.25em;
+    left: 0em;
+  }
+  100% {
+    top: 0.5em;
+    left: 0em; 
+  }
+}
+
 nav a {
   display: inline-block;
   padding: .75em 1em;
