@@ -117,9 +117,11 @@ nav {
 }
 
 .book-animation {
+  display: inline-block;
   position: absolute;
   font-size: 3em;
-  padding-left: 2.5em;
+  top: .5em;
+  left: 1.75em;
   animation: bounce 2s ease-out 1s infinite;
 }
 
@@ -127,19 +129,19 @@ nav {
 bounce {
   0% {
     top: 0.5em;
-    left: 0em;
+    left: 1.75em;
   }
   33% {
     top: 1.25em;
-    left: 1em;
+    left: 2.75em;
   }
   66% {
     top: 1.25em;
-    left: 0em;
+    left: 1.75em;
   }
   100% {
     top: 0.5em;
-    left: 0em; 
+    left: 1.75em; 
   }
 }
 
@@ -156,15 +158,11 @@ nav a:hover {
 }
 
 .nav-bar {
-  font-size: 2em;
-  position: relative;
-  right: .65em;
-}
-
-/* Genre
------------------------------- */
-.genre {
-  background: #b2ad7f;
+  display: inline-block;
+  position: absolute;
+  font-size: 2.5em;
+  right: 2.5em;
+  top: .75em;
 }
 
 /* Fantasy

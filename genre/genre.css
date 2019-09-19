@@ -1,0 +1,71 @@
+/* Color Palette
+HEX: #a2b9bc - turquoise
+HEX: #b2ad7f - military green
+HEX: #878f99 - gray
+HEX: #6b5b95 - purple
+HEX: #ffffff - white
+HEX: #001a33 - navy blue
+*/
+
+/* Global Styles
+------------------------------ */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 1.25em;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Bahianita', cursive;
+    margin: 0;
+    padding-bottom: 0.5em;
+  }
+  
+  h1 {
+    font-size: 6em;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .content_wrapper {
+    padding: 3em 1.5em 1.5em 1.5em;
+    margin: 0 auto;
+    width: 80%;
+    overflow: auto;
+  }
+  
+  .note:before {
+    content: "★";
+  }
+  
+  .status {
+    text-transform: uppercase;
+  }
+
+  /* Genre
+------------------------------ */
+.genre {
+    background: #b2ad7f;
+  }
