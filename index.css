@@ -100,7 +100,7 @@ footer {
 }
 
 .hide {
-  visibility: hidden;
+  display: none;
 }
 
 /* Navigation
@@ -164,6 +164,7 @@ nav a:hover {
 }
 
 .nav-bar {
+  outline: none;
   background-color: transparent;
   border: none;
   color: white;
@@ -177,23 +178,27 @@ nav a:hover {
   display: block;
 }
 
-/* Fantasy
+
+/* About
 ------------------------------ */
-.fantasy {
-  background: #878f99;
+.about {
+  background: #c2ac99;
+  color: white;
 }
 
-h3 ~ p {
-  margin: 0;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50%;
 }
 
-.evaluation {
-  margin-bottom: 2em;
+.about-img {
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
 }
 
-.evaluation p:first-of-type {
-  margin: 0;
-}
 
 /* Footer
 ------------------------------ */
