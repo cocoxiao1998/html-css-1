@@ -171,11 +171,17 @@ nav a:hover {
   font-size: 2.5em;
 }
 
+.nav-bar:hover {
+  color: beige;
+}
+
 .drop-down-content {
+  
 }
 
 .drop-down-content a{
   display: block;
+  margin: 0; 
 }
 
 
@@ -183,7 +189,6 @@ nav a:hover {
 ------------------------------ */
 .about {
   background: #c2ac99;
-  color: white;
 }
 
 .center {
@@ -199,6 +204,29 @@ nav a:hover {
   width: 15em;
 }
 
+  /* Genre
+------------------------------ */
+.genre {
+  background: #b2ad7f;
+}
+
+/* Fantasy
+------------------------------ */
+.fantasy {
+  background: #878f99;
+}
+
+h3 ~ p {
+  margin: 0;
+}
+
+.evaluation {
+  margin-bottom: 2em;
+}
+
+.evaluation p:first-of-type {
+  margin: 0;
+}
 
 /* Footer
 ------------------------------ */
